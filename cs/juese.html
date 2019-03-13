@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="userbox" style="height:40px">
+        <!-- <div class="userserch">
+            <label for="">ID</label>
+            <input type="text" placeholder="请输入">
+            <label for="">用户名</label>
+            <input type="text" placeholder="请输入">
+            <label for="">邮箱</label>
+            <input type="text" placeholder="请输入">
+        </div> -->
+        <div class="sex">
+            <label for="">角色筛选</label>
+            <select name="sex" id="">
+                <option value="">全部角色</option>
+                <option value="">超级管理员</option>
+                <option value="">管理员</option>
+                <option value="">管理员</option>
+                <option value="">管理员</option>
+                <option value="">管理员</option>
+            </select>
+            <button type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+    <div class="selecebox">
+        <div class="buttonbox">
+            <button type="button">删除</button>
+            <button type="button">添加</button>
+        </div>
+        <div>
+            <table class="addtable" cellspacing="0" id="table">
+                <tr class="addt">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true" id="inchecks"></i></td>
+                    <td>ID</td>
+                    <td>用户名</td>
+                    <td>头像</td>
+                    <td>手机</td>
+                    <td>邮箱</td>
+                    <td>性别</td>
+                    <td>IP</td>
+                    <td>加入时间</td>
+                    <td>操作</td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+                <tr class="add" id="addtr">
+                    <td><input type="checkbox" i class="fa fa-check" aria-hidden="true"></td>
+                    <td>001</td>
+                    <td>用户-1</td>
+                    <td><i class="fa fa-user" aria-hidden="true"></i></td>
+                    <td>12345678..</td>
+                    <td>11111@qq.</td>
+                    <td>男</td>
+                    <td>111111</td>
+                    <td>20190107</td>
+                    <td>
+                        <button type="button" class="write">编辑</button>
+                        <button type="button" class="dle">删除</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+        var addTr = document.getElementById('addtr')
+        var inputs = document.getElementsByTagName('input')
+        inchecks.onclick=function(){
+              	for (var i =0 ; i < inputs.length; i++) {
+                   	 inputs[i].checked=true;
+             	};
+        }
+    </script>
+</body>
+</html>

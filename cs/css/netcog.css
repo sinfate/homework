@@ -1,0 +1,129 @@
+input,label{
+    margin: 0;
+    outline: none;
+}
+textarea{
+    outline: none;
+}
+.net-font{
+    height: 43px;
+    background: #fff;
+    line-height: 43px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 1px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.net-box{
+    background-color: #fff;
+    padding: 15px;
+    height: 778px;
+}
+.net-input,.net-input2{
+    margin-bottom: 15px;
+    height: 38px;
+    line-height: 38px;
+}
+.net-input3{
+    margin-bottom: 15px;
+    height: 115px;
+    line-height: 38px;
+}
+.net-input4{
+    margin-bottom: 15px;
+    height: 80px;
+    line-height: 38px;
+}
+.net-input label,.net-input3 label,.net-input4 label{
+    float: left;
+    overflow: hidden;
+    font-size: 16px;
+    width: 75px;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    padding: 9px 15px;
+    color: #666;
+}
+.net-input input{
+    padding: 0;
+    float: right;
+    overflow: hidden;
+    width: 927px;
+    height: 36px;
+    border: 1px solid #d2d2d2;
+    text-indent: 1em;
+}
+.net-input input::placeholder{
+    color: #333;
+    font-size: 14px;
+}
+.net-input2 label:nth-child(1){
+    float: left;
+    overflow: hidden;
+    font-size: 16px;
+    width: 75px;
+    height: 20px;
+    text-align: right;
+    line-height: 20px;
+    padding: 9px 22px;
+    color: #666;
+}
+.net-input2 input{
+    padding: 0;
+    width: 80px;
+    height: 36px;
+    border: 1px solid #d2d2d2;
+    text-indent: 1em;
+}
+.net-input2 label:nth-child(3){
+    /* float: left; */
+    /* overflow: hidden; */
+    font-size: 16px;
+    width: 75px;
+    height: 20px;
+    text-align: left;
+    line-height: 20px;
+    /* padding: 8px 10px; */
+    color: #666;
+}
+.net-input2 label:nth-child(4){
+    /* float: left; */
+    /* overflow: hidden; */
+    font-size: 16px;
+    width: 75px;
+    height: 20px;
+    text-align: left;
+    line-height: 20px;
+    padding: 0px 10px;
+    color: #d2d2d2;
+}
+.net-input3 textarea{
+    padding: 6px 10px;
+    margin-left: 14px;
+    line-height: 20px;
+}
+.net-input4 textarea{
+    padding: 6px 10px;
+    margin-left: 14px;
+    line-height: 20px;
+}
+.submit-sava{
+    width: 92px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+    padding: 0 18px ;
+    border: 0;
+    color: #fff;
+    background-color: lightseagreen;
+    outline: none;
+    cursor: pointer;
+    margin-left: 118px;
+    border-radius: 2px;
+    transition: 1s;
+}
+.submit-sava:hover{
+    background: seagreen;
+    transition: 1s;
+}
